@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/solar-innovatio/static/css/main.69ff22aa.css",
+    "main.js": "/solar-innovatio/static/js/main.7ff631c6.js",
+    "static/js/787.cf1dacb7.chunk.js": "/solar-innovatio/static/js/787.cf1dacb7.chunk.js",
+    "static/media/hero.png": "/solar-innovatio/static/media/hero.cd8fb4fe7edd2b24cafd.png",
+    "static/media/background.png": "/solar-innovatio/static/media/background.8379d968104843d39afb.png",
+    "static/media/circle.png": "/solar-innovatio/static/media/circle.7ad0f55f243ec094f63e.png",
+    "index.html": "/solar-innovatio/index.html",
+    "main.69ff22aa.css.map": "/solar-innovatio/static/css/main.69ff22aa.css.map",
+    "main.7ff631c6.js.map": "/solar-innovatio/static/js/main.7ff631c6.js.map",
+    "787.cf1dacb7.chunk.js.map": "/solar-innovatio/static/js/787.cf1dacb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69ff22aa.css",
+    "static/js/main.7ff631c6.js"
+  ]
+}
