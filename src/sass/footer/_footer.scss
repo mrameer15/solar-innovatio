@@ -1,0 +1,111 @@
+.footer-div {
+  background: black url("/public/Images/footer/background.png") no-repeat center
+    center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  padding: 3rem 0 1rem 0;
+  opacity: 0.69;
+
+  .footer {
+    padding-bottom: 50px;
+    .footer-column {
+      .footer-logo {
+        width: 97px;
+        height: 46px;
+      }
+      h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+      }
+      a {
+        text-decoration: none;
+      }
+      p {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23.36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #c4c4c4;
+      }
+      .item {
+        .img-div {
+          padding: 4px 0 0 0;
+          .contact-img {
+            width: 23px;
+          }
+        }
+      }
+    }
+    .second-column {
+      padding: 0 0 0 15px;
+    }
+    .third-column {
+      padding: 0 0 0 28px;
+    }
+    .forth-column {
+      padding: 0 0 0 45px;
+    }
+  }
+  .bottom-footer {
+    .left-div {
+      a {
+        text-decoration: none;
+        .media-div {
+          background-color: white;
+          width: 30px;
+          border-radius: 50%;
+          height: 30px;
+          color: rgb(37, 37, 37);
+          &:hover {
+            background-color: #86be3f;
+            .media-icon {
+              color: white;
+            }
+          }
+          .media-icon {
+            font-size: 20px;
+            padding: 0 0;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    p {
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footer-div {
+    .footer {
+      .third-column {
+        padding: 20px 0 0 0;
+      }
+      .forth-column {
+        padding: 20px 0 0 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .footer-div {
+    .footer {
+      .second-column {
+        padding: 20px 0 0 0;
+      }
+      .forth-column {
+        padding: 20px 0 0 0;
+      }
+    }
+  }
+}

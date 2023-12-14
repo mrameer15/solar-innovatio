@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  // overflow-y: hidden;
+}
+
+@import "./home/home";
+@import "./header/upperHeader";
+@import "./header/lowerHeader";
+@import "./footer/footer";
+@import "./scrollbutton/fixed-button";

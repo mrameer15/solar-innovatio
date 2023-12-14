@@ -1,0 +1,57 @@
+.navigation-section {
+  padding: 20px 0 11px 0;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  border: 1px solid #f3eded;
+
+  .navbar {
+    padding: 0 2.2% 0 5.8%;
+
+    .navbar-brand {
+      display: none;
+      .logo {
+        width: 92px;
+        height: 44px;
+      }
+    }
+    .navbar-collapse {
+      ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .link {
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 500;
+          text-decoration: none;
+          color: #8a8888;
+
+          &:hover {
+            color: #86be3f;
+          }
+          &:focus {
+            color: #86be3f;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navigation-section {
+    .navbar {
+      .navbar-brand {
+        display: block;
+      }
+      .navbar-collapse {
+        ul {
+          // background-color: white;
+          padding: 0px 5px;
+        }
+      }
+    }
+  }
+}
